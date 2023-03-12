@@ -36,12 +36,15 @@ int main(){
     freopen("output.txt","w",stdout);
     freopen("error.txt","w",stderr);
 #endif
-
+    fact[0]=fact[1]=1;
+    for(int i=2;i<N;i++){
+        fact[i]=fact[i-1]*i;
+    }
     fast();
     int t;
     cin>>t;
     while(t--){
-        solve();
+        //solve();
     }
     
 
