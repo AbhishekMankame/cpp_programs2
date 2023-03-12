@@ -49,8 +49,8 @@ int main(){
         cout<<fact[n]<<endl;
         
     }
-    // OLD complexity --> O(T*N)
-    // NEW complexity --> O(N) + O(T)
+    // OLD complexity --> O(T*N) = 10^10
+    // NEW complexity --> O(N) + O(T) = 10^5 + 10^5
 
     
     return 0;
