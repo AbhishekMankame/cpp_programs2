@@ -25,7 +25,7 @@ void solve(){
         fact=(fact*i)%M;
     }
     cout<<fact<<endl;
-
+    //O(T*N)=10^10 iterations
 }
 
 int main(){
