@@ -23,7 +23,7 @@ print answer module M where M=10 ^ 9 + 7
 /*
 Significance of 10^9+7
 10^9+7 is very close to integer maximum
-(one good thing is it is sure that final answer can be stored in integer data type)
+(one good thing is it is sure that final answer can be stored in integer data type(even long long is need not to be used))
 */
 
 #include<bits/stdc++.h>
