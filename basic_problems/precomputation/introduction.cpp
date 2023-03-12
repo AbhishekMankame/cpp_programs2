@@ -7,7 +7,7 @@ Constraints
 1 <= N <= 10^5
 */
 
-#include<bits/stdc++.h>
+#include<bits/stdc++.h> 
 using namespace std;
 
 void fast(){
@@ -28,7 +28,12 @@ int main(){
 #endif
 
     fast();
-    solve();
+    int t;
+    cin>>t;
+    while(t--){
+        solve();
+    }
+    
 
     
     return 0;
