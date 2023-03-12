@@ -4,7 +4,7 @@ Given array a of N integers. Give Q queries and in each query given a number X, 
 Constraints
 1 <= N <= 10^5
 1 <= a[i] <= 10^7
-1 <= Q <= 10^5
+1 <= Q <= 10^5 
 */
 
 
@@ -18,6 +18,12 @@ void fast(){
 }
 
 void solve(){
+    int n;
+    cin>>n;
+    int a[n];
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
 
 }
 
