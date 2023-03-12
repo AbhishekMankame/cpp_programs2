@@ -20,6 +20,12 @@ print answer module M where M=10 ^ 9 + 7
 
 */
 
+/*
+Significance of 10^9+7
+10^9+7 is very close to integer maximum
+(one good thing is it is sure that final answer can be stored in integer data type)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 const int M=1e9+7;
