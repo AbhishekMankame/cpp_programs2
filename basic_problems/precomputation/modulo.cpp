@@ -13,6 +13,8 @@ b-inverse is calculated using binary exponentiation or modular exponentiation
 Given a number N. Print its factorial.
 Constraints
 1<=N<=100
+
+print answer module M where M=47(some or any prime number)
 */
 
 #include<bits/stdc++.h>
