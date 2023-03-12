@@ -28,6 +28,7 @@ void fast(){
 void solve(){
     int n;
     cin>>n;
+    long long int fact=1;
 
 }
 
