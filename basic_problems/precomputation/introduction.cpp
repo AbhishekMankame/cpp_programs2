@@ -44,7 +44,10 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        //solve();
+        int n;
+        cin>>n;
+        cout<<fact[n]<<endl;
+        
     }
     
 
