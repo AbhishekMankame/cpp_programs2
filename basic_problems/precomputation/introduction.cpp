@@ -49,7 +49,8 @@ int main(){
         cout<<fact[n]<<endl;
         
     }
-    
+    // OLD complexity --> O(T*N)
+    // NEW complexity --> O(N) + O(T)
 
     
     return 0;
