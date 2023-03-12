@@ -10,6 +10,8 @@ Constraints
 #include<bits/stdc++.h> 
 using namespace std;
 const int M=1e9+7;
+const int N=1e5+10;
+long long fact[N];
 
 void fast(){
     ios_base::sync_with_stdio(0); 
