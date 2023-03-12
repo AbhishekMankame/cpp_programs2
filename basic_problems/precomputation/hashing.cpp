@@ -35,6 +35,7 @@ void solve(){
                 ct++;
             }
         }
+        cout<<ct<<endl;
     }
 
 }
