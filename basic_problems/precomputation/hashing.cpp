@@ -24,6 +24,11 @@ void solve(){
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
+    int q;
+    cin>>q;
+    while(q--){
+        
+    }
 
 }
 
