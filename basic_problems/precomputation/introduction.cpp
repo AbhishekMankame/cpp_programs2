@@ -9,6 +9,7 @@ Constraints
 
 #include<bits/stdc++.h> 
 using namespace std;
+const int M=1e9+7;
 
 void fast(){
     ios_base::sync_with_stdio(0); 
@@ -17,6 +18,13 @@ void fast(){
 }
 
 void solve(){
+    int n;
+    cin>>n;
+    long long int fact=1;
+    for(int i=2;i<=n;i++){
+        fact=(fact*i)%M;
+    }
+    cout<<fact<<endl;
 
 }
 
