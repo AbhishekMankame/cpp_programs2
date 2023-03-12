@@ -30,9 +30,10 @@ void fast(){
 void solve(){
     int n;
     cin>>n;
+    int N=47;
     long long int fact=1;
     for(int i=2;i<n;i++){
-        fact=fact*i;
+        fact=(fact*i)%N;
     }
     cout<<fact<<endl;
 
