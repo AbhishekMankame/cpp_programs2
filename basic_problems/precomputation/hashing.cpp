@@ -27,7 +27,9 @@ void solve(){
     int q;
     cin>>q;
     while(q--){
-        
+        int x;
+        cin>>x;
+        int ct=0;
     }
 
 }
