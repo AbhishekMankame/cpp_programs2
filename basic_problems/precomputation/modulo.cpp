@@ -14,7 +14,10 @@ Given a number N. Print its factorial.
 Constraints
 1<=N<=100
 
-print answer module M where M=47(some or any prime number)
+// print answer module M where M=47(some or any prime number)
+
+print answer module M where M=10 ^ 9 + 7
+
 */
 
 #include<bits/stdc++.h>
