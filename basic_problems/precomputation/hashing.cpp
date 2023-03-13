@@ -43,10 +43,10 @@ void solve(){
 
         cout<<hsh[x]<<endl;
     }
-    // time complexity- O(N*Q) = O(N^2)==10^10 --> won't run in 1 second
-
-
+    // old time complexity- O(N*Q) = O(N^2)==10^10 --> won't run in 1 second
+    
     //By using hashing
+    // new time complexity(hashing) = O(N) + O(Q) = O(N)=10^5
 
 }
 
