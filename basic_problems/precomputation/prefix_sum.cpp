@@ -5,6 +5,7 @@ Constraints
 1 <= a[i] <= 10^9
 
 */
+// Prefix sum
 
 #include<bits/stdc++.h>
 using namespace std;
