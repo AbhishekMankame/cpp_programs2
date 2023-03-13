@@ -38,6 +38,7 @@ void solve(){
         cout<<ct<<endl;
     }
     // time complexity- O(N*Q) = O(N^2)==10^10 --> won't run in 1 second
+    
 
     //By using hashing
 
