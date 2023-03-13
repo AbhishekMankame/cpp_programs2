@@ -7,6 +7,8 @@ Constraints
 1 <= Q <= 10^5 
 */
 
+// precomputation cannot be used for the array if the size is 10^9 as the maximum size of the array is 10^7 globally
+
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -38,7 +40,7 @@ void solve(){
         cout<<ct<<endl;
     }
     // time complexity- O(N*Q) = O(N^2)==10^10 --> won't run in 1 second
-    
+
 
     //By using hashing
 
