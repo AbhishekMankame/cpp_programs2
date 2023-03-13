@@ -1,3 +1,6 @@
+/*
+Given array a of N inntegers. Given Q queries and in each query given L and R print sum of array elements from index L to R(R,L included)*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
