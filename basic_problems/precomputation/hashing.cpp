@@ -34,13 +34,14 @@ void solve(){
     while(q--){
         int x;
         cin>>x;
-        int ct=0;
-        for(int i=0;i<n;i++){
-            if(a[i]==x){
-                ct++;
-            }
-        }
-        cout<<ct<<endl;
+        // int ct=0;
+        // for(int i=0;i<n;i++){
+        //     if(a[i]==x){
+        //         ct++;
+        //     }
+        // }
+
+        cout<<hsh[x]<<endl;
     }
     // time complexity- O(N*Q) = O(N^2)==10^10 --> won't run in 1 second
 
