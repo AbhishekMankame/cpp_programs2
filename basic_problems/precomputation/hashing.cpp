@@ -37,6 +37,9 @@ void solve(){
         }
         cout<<ct<<endl;
     }
+    // time complexity- O(N*Q)
+
+    //By using hashing
 
 }
 
