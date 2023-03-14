@@ -33,7 +33,17 @@ void fast(){
 }
 
 void solve(){
-
+    string s;
+    cin>>s;
+    int ct=0;
+    int m=0;
+    for(int i=0;i<s.length()-1;i++){
+        if(s[i]==s[i+1]){
+            ct++;
+        }
+        m=max(m,ct);
+    }
+    cout<<m<<endl;
 }
 
 int main(){
