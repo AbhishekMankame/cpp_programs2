@@ -10,18 +10,18 @@ void fast(){
 void solve(){
     int n;
     cin>>n;
-    for(int i=0;i<n;i++){
-        if(n%3==0 and n%2==0){
+    for(int i=1;i<n;i++){
+        if(i%3==0 and i%2==0){
             cout<<"c"<<endl;
         }
-        else if(n%2==0){
+        else if(i%2==0){
             cout<<"o"<<endl;
         }
-        else if(n%3==0){
+        else if(i%3==0){
             cout<<"d"<<endl;
         }
         else{
-            cout<<n<<endl;
+            cout<<i<<endl;
         }
     }
 
