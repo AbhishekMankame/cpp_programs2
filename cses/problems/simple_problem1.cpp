@@ -10,7 +10,7 @@ void fast(){
 void solve(){
     int n;
     cin>>n;
-    for(int i=1;i<n;i++){
+    for(int i=1;i<=n;i++){
         if(i%3==0 and i%2==0){
             cout<<"c"<<endl;
         }
