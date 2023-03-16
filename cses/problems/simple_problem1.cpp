@@ -37,6 +37,5 @@ int main(){
     fast();
     solve();
 
-    
     return 0;
 }
