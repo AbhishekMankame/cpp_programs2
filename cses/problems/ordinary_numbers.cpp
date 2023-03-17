@@ -62,7 +62,9 @@ void solve(){
     int res=0;
     for(ll pw=1;pw<=n;pw=pw*10+1){
         for(int d=1;d<=n;d++){
-            res++;
+            if(pw*d<=n){
+                res++;
+            }
         }
     }
     cout<<res<<endl;
