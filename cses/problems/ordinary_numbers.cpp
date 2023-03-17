@@ -57,6 +57,12 @@ void fast(){
 }
 
 void solve(){
+    int n;
+    cin>>n;
+    int res=0;
+    for(ll pw=1;pw<=n;pw=pw*10+1){
+        
+    }
 
 }
 
