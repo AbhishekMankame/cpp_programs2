@@ -1,4 +1,7 @@
 /*
+Code forces problem
+
+
 Let's call a positive integer n
  ordinary if in the decimal notation all its digits are the same. For example, 1
 , 2
@@ -25,6 +28,21 @@ Each test case is characterized by one integer n
 Output
 For each test case output the number of ordinary numbers among numbers from 1
  to n
+
+
+ Tutorial:
+ Note that every ordinary number can be represented as d⋅(100+101+…+10k)
+. Therefore, to count all ordinary numbers among the numbers from 1
+ to n
+, it is enough to count the number of (d,k)
+ pairs such that d⋅(100+101+…+10k)≤n
+. In the given constraints, it is enough to iterate over d
+ from 1
+ to 9
+ and k
+ from 0
+ to 8
+.
 .*/
 
 #include<bits/stdc++.h>
