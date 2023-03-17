@@ -1,5 +1,5 @@
 /*
-Code forces problem
+This is a Codeforces problem
 
 
 Let's call a positive integer n
@@ -15,7 +15,7 @@ Let's call a positive integer n
  to n
 .
 
-Input
+Input:
 The first line contains one integer t
  (1≤t≤104
 ). Then t
@@ -25,7 +25,7 @@ Each test case is characterized by one integer n
  (1≤n≤109
 ).
 
-Output
+Output:
 For each test case output the number of ordinary numbers among numbers from 1
  to n
 
