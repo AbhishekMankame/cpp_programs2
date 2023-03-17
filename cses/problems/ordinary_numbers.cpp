@@ -17,8 +17,7 @@ Let's call a positive integer n
 
 Input:
 The first line contains one integer t
- (1≤t≤104
-). Then t
+ (1≤t≤104). Then t
  test cases follow.
 
 Each test case is characterized by one integer n
