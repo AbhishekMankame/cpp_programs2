@@ -5,7 +5,27 @@ Let's call a positive integer n
  and 99
  are ordinary numbers, but 719
  and 2021
- are not ordinary numbers.*/
+ are not ordinary numbers.
+ 
+ For a given number n
+, find the number of ordinary numbers among the numbers from 1
+ to n
+.
+
+Input
+The first line contains one integer t
+ (1≤t≤104
+). Then t
+ test cases follow.
+
+Each test case is characterized by one integer n
+ (1≤n≤109
+).
+
+Output
+For each test case output the number of ordinary numbers among numbers from 1
+ to n
+.*/
 
 #include<bits/stdc++.h>
 using namespace std;
