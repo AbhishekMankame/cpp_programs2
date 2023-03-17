@@ -1,3 +1,12 @@
+/*
+Let's call a positive integer n
+ ordinary if in the decimal notation all its digits are the same. For example, 1
+, 2
+ and 99
+ are ordinary numbers, but 719
+ and 2021
+ are not ordinary numbers.*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
