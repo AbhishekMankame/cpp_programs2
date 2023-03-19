@@ -19,7 +19,11 @@ int main(){
 #endif
 
     fast();
-    solve();
+    int t;
+    cin>>t;
+    while(t--){
+        solve();
+    }
 
     
     return 0;
