@@ -15,6 +15,23 @@ void solve(){
     for(ll i=0;i<n;i++){
         cin>>v[i];
     }
+    sort(v.begin(),v.end());
+    ll s=1;
+    if(v[0]!=1){
+        cout<<"NO"<<endl;
+        return;
+    }
+    for(ll i=1;i<n;i++){
+        if(v[i]<=s){
+            s=+v[i];
+            continue;
+        }
+        else{
+            cout<<"NO"<<endl;
+            return;
+        }
+    }
+    cout<<"YES"<<endl;
 
 }
 
@@ -26,8 +43,10 @@ int main(){
 #endif
 
     fast();
-    solve();
-
-    
+    int t;
+    cin>>t;
+    while(t--){
+        solve();
+    }    
     return 0;
 }
