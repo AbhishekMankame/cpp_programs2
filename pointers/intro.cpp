@@ -4,7 +4,6 @@ Pointers:
 Pointers are one of the most powerful and confusing aspects of the C/C++ language
 */
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
