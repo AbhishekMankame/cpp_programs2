@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long int
 
 void fast(){
     ios_base::sync_with_stdio(0); 
@@ -8,6 +9,8 @@ void fast(){
 }
 
 void solve(){
+    ll n;
+    cin>>n;
 
 }
 
