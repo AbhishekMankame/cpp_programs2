@@ -22,6 +22,8 @@ void fast(){
 void solve(){
     int *p=0;
     int *q=NULL;
+    cout<<p<<endl;
+    cout<<q<<endl;
 
 }
 
