@@ -29,6 +29,8 @@ void solve(){
     int *xptr = &x;
     cout<<endl<<endl;
     cout<<xptr<<endl;
+
+    // Address of a pointer variable
 }
 
 int main(){
