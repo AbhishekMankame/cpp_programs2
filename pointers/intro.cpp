@@ -41,6 +41,17 @@ void solve(){
     cout<<endl<<endl;
     cout<<"Coding_minutes_code"<<endl;
     // Prateek bhaiya's code
+    int y=10;
+    float yy=5.5;
+    cout<<&y<<endl;
+    int *yptr=&y;
+    cout<<yptr<<endl;
+    //Address of a pointer variable
+    cout<<&yptr<<endl;
+
+    //Pointer to a pointer
+    int **yyptr=&yptr;
+    cout<<yyptr<<endl;
 }
 
 int main(){
