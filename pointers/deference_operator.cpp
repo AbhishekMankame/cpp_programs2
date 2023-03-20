@@ -24,6 +24,7 @@ void solve(){
     int *q=NULL;
     cout<<p<<endl;
     cout<<q<<endl;
+    cout<<*p<<endl;
 
 }
 
