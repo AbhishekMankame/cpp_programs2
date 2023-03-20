@@ -32,6 +32,9 @@ void solve(){
 
     // Address of a pointer variable
     cout<<&xptr<<endl;
+
+    //Pointer to a Pointer
+    int **xxprt=&xptr;
 }
 
 int main(){
