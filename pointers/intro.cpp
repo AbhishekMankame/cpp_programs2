@@ -18,6 +18,8 @@ void solve(){
     int *q=&p;
     cout<<q<<endl;
     cout<<&p<<endl;
+    float c=54.00;
+    cout<<&c<<endl;
 
 }
 
