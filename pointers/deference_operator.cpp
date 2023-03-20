@@ -24,7 +24,7 @@ void solve(){
     int *q=NULL;
     cout<<p<<endl;
     cout<<q<<endl;
-    cout<<*p<<endl;
+    //cout<<*p<<endl;  //segmentation fault as we cannot dereference a null pointer
 
 }
 
