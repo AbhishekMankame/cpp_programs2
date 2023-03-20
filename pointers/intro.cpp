@@ -37,6 +37,9 @@ void solve(){
     cout<<endl;
     int **xxprt=&xptr;
     cout<<xxprt;
+
+
+    // Prateek bhaiya's code
 }
 
 int main(){
