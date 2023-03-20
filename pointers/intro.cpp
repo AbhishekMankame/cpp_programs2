@@ -31,6 +31,7 @@ void solve(){
     cout<<xptr<<endl;
 
     // Address of a pointer variable
+    cout<<&xptr<<endl;
 }
 
 int main(){
