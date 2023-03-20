@@ -6,6 +6,8 @@ An interesting property of pointers is that they can be used to access the varia
 /*
 NULL pointer:
 Sometimes it is useful to make our point to nothing. This is called a null pointer.
+
+We assign a pointer a null value by setting it to address 0:
 */
 
 #include<bits/stdc++.h>
