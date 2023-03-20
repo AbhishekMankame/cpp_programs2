@@ -20,6 +20,8 @@ void fast(){
 }
 
 void solve(){
+    int *p=0;
+    int *q=NULL;
 
 }
 
