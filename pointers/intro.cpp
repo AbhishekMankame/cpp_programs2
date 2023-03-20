@@ -34,7 +34,9 @@ void solve(){
     cout<<&xptr<<endl;
 
     //Pointer to a Pointer
+    cout<<endl;
     int **xxprt=&xptr;
+    cout<<xxprt;
 }
 
 int main(){
