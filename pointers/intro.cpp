@@ -14,6 +14,9 @@ void fast(){
 }
 
 void solve(){
+    int p=5;
+    int *q=&p;
+    cout<<q<<endl;
 
 }
 
