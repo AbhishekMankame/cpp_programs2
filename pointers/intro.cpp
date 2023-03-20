@@ -22,6 +22,11 @@ void solve(){
     cout<<&c<<endl;
     char d='a';
     cout<<&d<<endl;
+
+
+    // Demo Pointer
+    int x=10;
+    int *xptr = &x;
 }
 
 int main(){
