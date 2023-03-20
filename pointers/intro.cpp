@@ -27,6 +27,8 @@ void solve(){
     // Demo Pointer
     int x=10;
     int *xptr = &x;
+    cout<<endl<<endl;
+    cout<<xptr<<endl;
 }
 
 int main(){
