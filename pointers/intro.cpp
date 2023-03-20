@@ -20,7 +20,8 @@ void solve(){
     cout<<&p<<endl;
     float c=54.00;
     cout<<&c<<endl;
-
+    char d='a';
+    cout<<&d<<endl;
 }
 
 int main(){
