@@ -1,3 +1,8 @@
+/*
+Dereference Operator *
+An interesting property of pointers is that they can be used to access the variable they point to directly. This is done by preceding the pointer name with the dereference operator(*). The operator itself can be read as "value pointed to by"
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
