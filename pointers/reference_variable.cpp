@@ -11,6 +11,7 @@ void solve(){
     int a=10;
     int b=a;
     cout<<a<<endl<<b<<endl;
+    cout<<&a<<endl<<&b<<endl;
 
 }
 
