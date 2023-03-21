@@ -35,9 +35,7 @@ using namespace std;
 
 void applyTax(int income){
     float tax=0.10;
-    income = income - income*tax;
 }
-
 int main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
