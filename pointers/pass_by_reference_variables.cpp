@@ -46,8 +46,8 @@ int main(){
     freopen("error.txt","w",stderr);
 #endif
 
-    int income;
-    cin>>income;
+    int income=100;
+    //cin>>income;
     applyTax(income);
     cout<<income<<endl;
 
