@@ -25,11 +25,13 @@ int main(){
         arr[i]=i;
         cout<<arr[i]<<" ";
     }
+    cout<<endl<<arr[2]<<endl;
 
     // Delete
     delete [] arr;
     cout<<endl<<arr<<endl;
     cout<<*arr<<endl;
+    cout<<arr[2]<<endl;
 
     
     return 0;
