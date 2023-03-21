@@ -9,8 +9,8 @@ void fast(){
 
 
 // pass by reference using pointer variable
-void watchVideo(int views){
-    views=views+1;
+void watchVideo(int * views){
+    *views= *views+1;
 }
 
 int main(){
@@ -21,8 +21,8 @@ int main(){
 #endif
 
     fast();
-    int views=150;
-    watchVideo(views);
+    int views=100;
+    watchVideo(&views);
     cout<<views<<endl;
 
     
