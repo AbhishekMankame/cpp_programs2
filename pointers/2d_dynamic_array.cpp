@@ -37,6 +37,8 @@ int main(){
     int rows,cols;
     cin>>rows>>cols;
 
+    int **arr=create2DArray(rows,cols);
+
     
     return 0;
 }
