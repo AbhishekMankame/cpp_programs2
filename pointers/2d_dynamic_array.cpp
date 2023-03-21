@@ -34,6 +34,8 @@ int main(){
 #endif
 
     fast();
+    int rows,cols;
+    cin>>rows>>cols;
 
     
     return 0;
