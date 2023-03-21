@@ -12,9 +12,11 @@ void solve(){
     int b=a;
     cout<<a<<endl<<b<<endl;
     cout<<&a<<endl<<&b<<endl;
-    cout<<endl<<endl;
+    cout<<endl;
     int c=5;
     int &d=c;
+    cout<<c<<endl<<d<<endl;
+    cout<<&c<<endl<<&d<<endl;
 
 }
 
