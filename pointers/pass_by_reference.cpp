@@ -10,7 +10,7 @@ void fast(){
 // Pass by value
 void applyTax(int income){
     float tax=0.10;
-    income=(1-tax)*income;
+    income=income -tax*income;
 }
 
 int main(){
