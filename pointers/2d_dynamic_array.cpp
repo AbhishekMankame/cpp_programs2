@@ -10,6 +10,7 @@ void fast(){
 int ** create2DArray(int rows, int cols){
     int** arr = new int*[rows];
 
+    // Allocate memory for each row
     for(int i=0;i<rows;i++){
         arr[i]=new int[cols];
     }
