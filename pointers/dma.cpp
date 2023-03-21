@@ -29,6 +29,7 @@ int main(){
     // Delete
     delete [] arr;
     cout<<endl<<arr<<endl;
+    cout<<*arr<<endl;
 
     
     return 0;
