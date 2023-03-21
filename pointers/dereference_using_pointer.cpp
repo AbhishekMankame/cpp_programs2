@@ -21,7 +21,7 @@ int main(){
 #endif
 
     fast();
-    int views=100;
+    int views=150;
     watchVideo(views);
     cout<<views<<endl;
 
