@@ -22,10 +22,10 @@ int main(){
 #endif
 
     //fast();
-    int income=1000;
+    int money=1000;
     //cin>>income;
-    applyTax(income);
-    cout<<income<<endl;
+    applyTax(money);
+    cout<<money<<endl;
 
     
     return 0;
