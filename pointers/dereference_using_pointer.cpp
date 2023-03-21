@@ -9,7 +9,7 @@ void fast(){
 
 
 // pass by reference using pointer variable
-void solve(){
+void watchVideo(int views){
 
 }
 
@@ -21,7 +21,6 @@ int main(){
 #endif
 
     fast();
-    solve();
 
     
     return 0;
