@@ -14,6 +14,8 @@ int ** create2DArray(int rows, int cols){
     for(int i=0;i<rows;i++){
         arr[i]=new int[cols];
     }
+
+    // Initialize the array with increasing list of numbers
 }
 
 int main(){
