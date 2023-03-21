@@ -23,10 +23,10 @@ void solve(){
     int *p=0;
     int *q=NULL;
     cout<<p<<endl;
-    cout<<q<<endl;
-    //cout<<*p<<endl;  //segmentation fault as we cannot dereference a null pointer
+    cout<<q<<endl; 
+    /*   //cout<<*p<<endl;  //segmentation fault as we cannot dereference a null pointer
     // segmentation fault is a memory related error as this address does not exists
-
+*/
 }
 
 int main(){
