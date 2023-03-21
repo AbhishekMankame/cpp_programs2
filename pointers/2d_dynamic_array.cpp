@@ -8,7 +8,7 @@ void fast(){
 }
 
 int ** create2DArray(int rows, int cols){
-    
+    int **arr = new int*[rows];
 }
 
 int main(){
