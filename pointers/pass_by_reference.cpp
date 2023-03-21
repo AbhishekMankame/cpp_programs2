@@ -33,7 +33,7 @@
 #include<iostream>
 using namespace std;
 
-void applyTax(int income){
+void applyTax(int &income){
     float tax=0.10;
 }
 int main(){
