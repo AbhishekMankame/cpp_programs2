@@ -15,6 +15,10 @@ int main(){
 #endif
 
     fast();
+    int n;
+    cin>>n;
+
+    //Dynamic Array
 
     
     return 0;
