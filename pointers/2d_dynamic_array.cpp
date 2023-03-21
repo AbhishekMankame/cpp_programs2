@@ -7,8 +7,8 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
-
+int ** create2DArray(int rows, int cols){
+    
 }
 
 int main(){
@@ -19,7 +19,6 @@ int main(){
 #endif
 
     fast();
-    solve();
 
     
     return 0;
