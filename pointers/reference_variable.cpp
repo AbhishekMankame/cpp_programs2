@@ -19,6 +19,7 @@ void solve(){
     cout<<c<<endl<<d<<endl;
     cout<<&c<<endl<<&d<<endl;
     d++;
+    c++;
     cout<<c<<endl<<d<<endl;
 
 }
