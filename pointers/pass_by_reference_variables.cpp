@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+//#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 void fast(){
@@ -8,8 +9,9 @@ void fast(){
 }
 
 // Pass by reference using reference variables
-void solve(){
-
+void applyTax(int & money){
+    float tax = 0.10;
+    money = money - money*tax;
 }
 
 int main(){
@@ -19,8 +21,11 @@ int main(){
     freopen("error.txt","w",stderr);
 #endif
 
-    fast();
-    solve();
+    //fast();
+    int income=1000;
+    //cin>>income;
+    applyTax(income);
+    cout<<income<<endl;
 
     
     return 0;
