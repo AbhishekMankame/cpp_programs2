@@ -19,9 +19,11 @@ int ** create2DArray(int rows, int cols){
     int value=0;
     for(int i=0;i<rows;i++){
         for(int j=0;j<cols;j++){
-
+            arr[i][j]=value;
+            value++;
         }
     }
+    return arr;
 }
 
 int main(){
