@@ -7,8 +7,10 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
-
+// Pass by references
+void applyTax(int income){
+    float tax=0.10;
+    income=(1-tax)*income;
 }
 
 int main(){
@@ -19,7 +21,6 @@ int main(){
 #endif
 
     fast();
-    solve();
 
     
     return 0;
