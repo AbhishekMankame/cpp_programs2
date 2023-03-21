@@ -25,6 +25,9 @@ int main(){
         cout<<arr[i]<<" ";
     }
 
+    // Delete
+    delete [] arr;
+
     
     return 0;
 }
