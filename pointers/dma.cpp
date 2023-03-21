@@ -24,6 +24,7 @@ int main(){
         arr[i]=i;
         cout<<arr[i]<<" ";
     }
+    cout<<arr<<endl;
 
     // Delete
     delete [] arr;
