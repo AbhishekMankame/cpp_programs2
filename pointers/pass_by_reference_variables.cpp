@@ -7,6 +7,7 @@ void fast(){
     cout.tie(0);
 }
 
+// Pass by reference using reference variables
 void solve(){
 
 }
