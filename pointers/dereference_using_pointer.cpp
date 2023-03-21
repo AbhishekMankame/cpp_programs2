@@ -7,6 +7,8 @@ void fast(){
     cout.tie(0);
 }
 
+
+// pass by reference using pointer variable
 void solve(){
 
 }
