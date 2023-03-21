@@ -7,7 +7,7 @@ void fast(){
     cout.tie(0);
 }
 
-// Pass by references
+// Pass by value
 void applyTax(int income){
     float tax=0.10;
     income=(1-tax)*income;
@@ -21,6 +21,10 @@ int main(){
 #endif
 
     fast();
+    int income;
+    cin>>income;
+    applyTax(income);
+    cout<<income<<endl;
 
     
     return 0;
